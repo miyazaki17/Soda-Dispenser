@@ -1,0 +1,10 @@
+module sodadispenser(input  logic clk,reset,
+                     input  logic nickel,dime,quarter,noMoney,
+                     output logic dispense,returnNickel,returnDime,returnTwoDimes);
+							
+	typedef enum logic[3:0] {S0,S5,S10,S15,S20,S25,S30,S35,S40,S45} statetype:
+	statetype[3:0] state,nextstate;
+	
+	
+							
+							

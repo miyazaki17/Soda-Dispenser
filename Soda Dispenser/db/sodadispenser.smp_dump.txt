@@ -1,0 +1,13 @@
+
+State Machine - |sodadispenser|state
+Name state.S45 state.S40 state.S35 state.S20 state.S15 state.S30 state.S25 state.S10 state.S5 state.S0 
+state.S0 0 0 0 0 0 0 0 0 0 0 
+state.S5 0 0 0 0 0 0 0 0 1 1 
+state.S10 0 0 0 0 0 0 0 1 0 1 
+state.S25 0 0 0 0 0 0 1 0 0 1 
+state.S30 0 0 0 0 0 1 0 0 0 1 
+state.S15 0 0 0 0 1 0 0 0 0 1 
+state.S20 0 0 0 1 0 0 0 0 0 1 
+state.S35 0 0 1 0 0 0 0 0 0 1 
+state.S40 0 1 0 0 0 0 0 0 0 1 
+state.S45 1 0 0 0 0 0 0 0 0 1 

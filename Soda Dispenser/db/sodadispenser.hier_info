@@ -1,0 +1,36 @@
+|sodadispenser
+clk => state~1.DATAIN
+reset => state~3.DATAIN
+n => nextstate.OUTPUTSELECT
+n => nextstate.OUTPUTSELECT
+n => nextstate.OUTPUTSELECT
+n => nextstate.OUTPUTSELECT
+n => nextstate.OUTPUTSELECT
+n => nextstate.OUTPUTSELECT
+n => Selector1.IN3
+n => Selector2.IN4
+n => Selector5.IN3
+n => Selector6.IN4
+n => Selector3.IN4
+d => nextstate.OUTPUTSELECT
+d => nextstate.OUTPUTSELECT
+d => nextstate.OUTPUTSELECT
+d => nextstate.OUTPUTSELECT
+d => nextstate.OUTPUTSELECT
+d => nextstate.DATAA
+q => nextstate.OUTPUTSELECT
+q => nextstate.OUTPUTSELECT
+q => nextstate.DATAA
+q => nextstate.DATAA
+nm => rn.IN0
+nm => rn.IN0
+nm => rd.IN0
+nm => rtd.IN0
+nm => nextstate.DATAA
+nm => nextstate.DATAA
+dis <= dis.DB_MAX_OUTPUT_PORT_TYPE
+rn <= rn.DB_MAX_OUTPUT_PORT_TYPE
+rd <= rd.DB_MAX_OUTPUT_PORT_TYPE
+rtd <= rtd.DB_MAX_OUTPUT_PORT_TYPE
+
+
